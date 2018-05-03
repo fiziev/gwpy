@@ -355,7 +355,7 @@ class DataQualityFlag(object):
 
     @padding.deleter
     def padding(self):
-        self._padding = (float(0), float(0))
+        self._padding = (0., 0.)
 
     # -- read-only properties -------------------
 
